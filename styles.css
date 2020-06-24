@@ -30,6 +30,17 @@
     margin-bottom: 20px;  
 }
 
+.search-container i {
+    position: relative;
+    bottom: 52px;
+    margin-left: 15px;
+    opacity: 50%;     
+}   
+
+
+
+
+
 .button-group {
     display: block; 
     text-align: center;
@@ -79,6 +90,7 @@
     font-weight: bold; 
 }
 
+/* Footer css, using css from nav also */
 
 footer {
     margin: 250px 0px 0px 0px; 
