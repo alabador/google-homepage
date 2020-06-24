@@ -1,4 +1,5 @@
 
+/* Ssearch bar and logo css */
 .center{
     padding-top: 175px; 
     display: block; 
@@ -38,3 +39,24 @@
      border-radius: 5px;
      font-size: 14px;    
 }
+
+/*Nav bar css */ 
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 15px 20px 0px 20px;    
+}
+
+.nav-left, .nav-right {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+    flex-grow: 0.05;
+}
+
+.nav-left {
+    flex-grow: 0.03; 
+}
+
+
