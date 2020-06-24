@@ -14,14 +14,17 @@
 
 #logo {
     display: block; 
-    width: 50%; 
+    width: 50%;
+    max-width: 300px; 
+    max-height: 150px;  
     margin: auto;
     padding-bottom: 20px;  
 }
 
 .searchbar {
     display: block; 
-    width: 100%;
+    width: 100%; 
+    max-width: 600px; 
     margin: auto; 
     height: 40px;
     border: 1px solid rgb(218, 218, 218); 
@@ -30,12 +33,6 @@
     margin-bottom: 20px;  
 }
 
-.search-container i {
-    position: relative;
-    bottom: 52px;
-    margin-left: 15px;
-    opacity: 50%;     
-}   
 
 
 
