@@ -1,5 +1,9 @@
+* {
+    font-family: Roboto, Arial, sans-serif; 
+}
 
-/* Ssearch bar and logo css */
+
+/* Search bar and logo css */
 .center{
     padding-top: 175px; 
     display: block; 
@@ -59,4 +63,17 @@
     flex-grow: 0.03; 
 }
 
+.nav-left> a,.nav-right > a {
+    color: #3F3F3F;
+    text-decoration: none; 
+}
 
+#Sign-in {
+    height: 30px;
+    width: 70px;  
+    background-color: rgb(45, 99, 248); 
+    color: white;
+    border: none; 
+    border-radius: 3px;
+    font-weight: bold; 
+}
